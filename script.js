@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded',() => {
 
   let count = 0;
 
-  countBtn,addEventListener('click', () => {
+  countBtn.addEventListener('click', () => {
     count++;
     counter.textContent = count;
 
